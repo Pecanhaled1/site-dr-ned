@@ -117,25 +117,19 @@ const App: React.FC = () => {
 
           {/* Location */}
           <SectionCard>
-            <a 
-              href="https://www.google.com/maps/place/Shopping+Tijuca/@-22.9219628,-43.2377984,17z/data=!3m1!4b1!4m6!3m5!1s0x997e6bae2c0001:0x203e1a0e878d3b5!8m2!3d-22.9219678!4d-43.2352235!16s%2Fg%2F12hsv49w2?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col md:flex-row items-center md:items-start gap-6 text-center md:text-left group cursor-pointer hover:bg-white/5 p-2 rounded-xl -m-2 transition-colors duration-300"
-              aria-label="Ver localização no Google Maps"
-            >
-              <div className="p-4 bg-gradient-to-br from-gold-500/20 to-gold-600/5 rounded-2xl text-gold-400 shrink-0 border border-gold-500/10 shadow-lg group-hover:scale-110 group-hover:bg-gold-500/30 group-hover:shadow-gold-500/20 transition-all duration-300">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-6 text-center md:text-left">
+              <div className="p-4 bg-gradient-to-br from-gold-500/20 to-gold-600/5 rounded-2xl text-gold-400 shrink-0 border border-gold-500/10 shadow-lg">
                 <Icons.MapPin size={32} />
               </div>
               <div className="space-y-2">
-                <h3 className="text-xl font-bold text-gold-200 group-hover:underline decoration-gold-500/50 underline-offset-4 decoration-2 transition-all">Consultório Principal</h3>
+                <h3 className="text-xl font-bold text-gold-200">Consultório Principal</h3>
                 <p className="text-slate-400 text-lg leading-snug">
                   Av. Maracanã, 987 - Shopping Tijuca<br/>
                   Torre 3, Sala 1208
                 </p>
                 <p className="text-slate-500 font-mono text-sm">CEP 20511-000</p>
               </div>
-            </a>
+            </div>
           </SectionCard>
 
         </main>
