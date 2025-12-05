@@ -92,7 +92,7 @@ const App: React.FC = () => {
             </SectionCard>
 
             {/* Contact Actions */}
-            <SectionCard title="Agendamento" icon={<Icons.Phone size={20} />}>
+            <SectionCard title="Agendamento " icon={<Icons.Phone size={20} />}>
               <div className="flex flex-col gap-4">
                 <a 
                   href="https://wa.me/5521987573537"
