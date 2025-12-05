@@ -95,7 +95,7 @@ const App: React.FC = () => {
             <SectionCard title="Agendamento" icon={<Icons.Phone size={20} />}>
               <div className="flex flex-col gap-4">
                 <a 
-                  href="https://wa.me/5528992780505"
+                  href="https://wa.me/5521987573537"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center justify-center gap-3 bg-green-900/20 hover:bg-green-800/30 text-green-400 border border-green-500/20 px-4 py-4 rounded-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-green-900/20"
